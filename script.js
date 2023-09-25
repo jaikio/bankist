@@ -221,7 +221,7 @@ const startLogoutTimer = function () {
     timer--;
   };
   // set time to 10 minutes
-  let timer = 10;
+  let timer = = 600;
   tick();
   // call timer every second
   const tickDown = setInterval(tick, 1000);
